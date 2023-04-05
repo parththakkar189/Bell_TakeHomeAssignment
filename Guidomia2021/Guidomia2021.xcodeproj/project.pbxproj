@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		B2B6D49029DCA4980070873F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D48F29DCA4980070873F /* AppDelegate.swift */; };
 		B2B6D49229DCA4980070873F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D49129DCA4980070873F /* SceneDelegate.swift */; };
-		B2B6D49429DCA4980070873F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D49329DCA4980070873F /* ViewController.swift */; };
 		B2B6D49729DCA4980070873F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B6D49529DCA4980070873F /* Main.storyboard */; };
 		B2B6D49929DCA49B0070873F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B6D49829DCA49B0070873F /* Assets.xcassets */; };
 		B2B6D49C29DCA49B0070873F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B6D49A29DCA49B0070873F /* LaunchScreen.storyboard */; };
+		B2B6D4A729DD1F370070873F /* JStarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4A429DD1F370070873F /* JStarRatingView.swift */; };
+		B2B6D4A829DD1F370070873F /* StarRatingStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2B6D4A529DD1F370070873F /* StarRatingStackView.xib */; };
+		B2B6D4A929DD1F370070873F /* StarRatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4A629DD1F370070873F /* StarRatingStackView.swift */; };
+		B2B6D4AC29DD29CE0070873F /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B6D4AB29DD29CE0070873F /* car_list.json */; };
+		B2B6D4AF29DD2BA10070873F /* CarListViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4AE29DD2BA10070873F /* CarListViewProtocols.swift */; };
+		B2B6D4B129DD2BAE0070873F /* CarListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4B029DD2BAE0070873F /* CarListViewPresenter.swift */; };
+		B2B6D4B329DD2BBB0070873F /* CarListViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4B229DD2BBB0070873F /* CarListViewInteractor.swift */; };
+		B2B6D4B529DD2BCA0070873F /* CarListViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4B429DD2BCA0070873F /* CarListViewRouter.swift */; };
+		B2B6D4B929DD2CD00070873F /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4B829DD2CD00070873F /* CarListViewController.swift */; };
+		B2B6D4BB29DD2D130070873F /* CarListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4BA29DD2D130070873F /* CarListEntity.swift */; };
+		B2B6D4BE29DD3A300070873F /* CarListViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4BD29DD3A300070873F /* CarListViewTableViewCell.swift */; };
+		B2B6D4C129DD41990070873F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4C029DD41990070873F /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2B6D48C29DCA4980070873F /* Guidomia2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guidomia2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B6D48F29DCA4980070873F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2B6D49129DCA4980070873F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2B6D49329DCA4980070873F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2B6D49629DCA4980070873F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2B6D49829DCA49B0070873F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2B6D49B29DCA49B0070873F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2B6D49D29DCA49B0070873F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B6D4A429DD1F370070873F /* JStarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JStarRatingView.swift; sourceTree = "<group>"; };
+		B2B6D4A529DD1F370070873F /* StarRatingStackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarRatingStackView.xib; sourceTree = "<group>"; };
+		B2B6D4A629DD1F370070873F /* StarRatingStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRatingStackView.swift; sourceTree = "<group>"; };
+		B2B6D4AB29DD29CE0070873F /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
+		B2B6D4AE29DD2BA10070873F /* CarListViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewProtocols.swift; sourceTree = "<group>"; };
+		B2B6D4B029DD2BAE0070873F /* CarListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewPresenter.swift; sourceTree = "<group>"; };
+		B2B6D4B229DD2BBB0070873F /* CarListViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewInteractor.swift; sourceTree = "<group>"; };
+		B2B6D4B429DD2BCA0070873F /* CarListViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewRouter.swift; sourceTree = "<group>"; };
+		B2B6D4B829DD2CD00070873F /* CarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
+		B2B6D4BA29DD2D130070873F /* CarListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListEntity.swift; sourceTree = "<group>"; };
+		B2B6D4BD29DD3A300070873F /* CarListViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewTableViewCell.swift; sourceTree = "<group>"; };
+		B2B6D4C029DD41990070873F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,66 @@
 		B2B6D48E29DCA4980070873F /* Guidomia2021 */ = {
 			isa = PBXGroup;
 			children = (
+				B2B6D4BF29DD41840070873F /* Utilities */,
+				B2B6D4BC29DD3A0C0070873F /* Views */,
+				B2B6D4AD29DD2AF20070873F /* CarListView */,
+				B2B6D4AA29DD29B80070873F /* Car Data */,
+				B2B6D4A329DD1F1B0070873F /* JStarRatingView */,
 				B2B6D48F29DCA4980070873F /* AppDelegate.swift */,
 				B2B6D49129DCA4980070873F /* SceneDelegate.swift */,
-				B2B6D49329DCA4980070873F /* ViewController.swift */,
 				B2B6D49529DCA4980070873F /* Main.storyboard */,
 				B2B6D49829DCA49B0070873F /* Assets.xcassets */,
 				B2B6D49A29DCA49B0070873F /* LaunchScreen.storyboard */,
 				B2B6D49D29DCA49B0070873F /* Info.plist */,
 			);
 			path = Guidomia2021;
+			sourceTree = "<group>";
+		};
+		B2B6D4A329DD1F1B0070873F /* JStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6D4A429DD1F370070873F /* JStarRatingView.swift */,
+				B2B6D4A629DD1F370070873F /* StarRatingStackView.swift */,
+				B2B6D4A529DD1F370070873F /* StarRatingStackView.xib */,
+			);
+			path = JStarRatingView;
+			sourceTree = "<group>";
+		};
+		B2B6D4AA29DD29B80070873F /* Car Data */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6D4AB29DD29CE0070873F /* car_list.json */,
+			);
+			path = "Car Data";
+			sourceTree = "<group>";
+		};
+		B2B6D4AD29DD2AF20070873F /* CarListView */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6D4AE29DD2BA10070873F /* CarListViewProtocols.swift */,
+				B2B6D4B029DD2BAE0070873F /* CarListViewPresenter.swift */,
+				B2B6D4B229DD2BBB0070873F /* CarListViewInteractor.swift */,
+				B2B6D4B429DD2BCA0070873F /* CarListViewRouter.swift */,
+				B2B6D4B829DD2CD00070873F /* CarListViewController.swift */,
+				B2B6D4BA29DD2D130070873F /* CarListEntity.swift */,
+			);
+			path = CarListView;
+			sourceTree = "<group>";
+		};
+		B2B6D4BC29DD3A0C0070873F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6D4BD29DD3A300070873F /* CarListViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2B6D4BF29DD41840070873F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6D4C029DD41990070873F /* Constant.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +198,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B6D4A829DD1F370070873F /* StarRatingStackView.xib in Resources */,
 				B2B6D49C29DCA49B0070873F /* LaunchScreen.storyboard in Resources */,
 				B2B6D49929DCA49B0070873F /* Assets.xcassets in Resources */,
 				B2B6D49729DCA4980070873F /* Main.storyboard in Resources */,
+				B2B6D4AC29DD29CE0070873F /* car_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +213,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B6D49429DCA4980070873F /* ViewController.swift in Sources */,
+				B2B6D4A729DD1F370070873F /* JStarRatingView.swift in Sources */,
+				B2B6D4C129DD41990070873F /* Constant.swift in Sources */,
+				B2B6D4AF29DD2BA10070873F /* CarListViewProtocols.swift in Sources */,
+				B2B6D4B129DD2BAE0070873F /* CarListViewPresenter.swift in Sources */,
+				B2B6D4A929DD1F370070873F /* StarRatingStackView.swift in Sources */,
+				B2B6D4B929DD2CD00070873F /* CarListViewController.swift in Sources */,
+				B2B6D4BB29DD2D130070873F /* CarListEntity.swift in Sources */,
+				B2B6D4BE29DD3A300070873F /* CarListViewTableViewCell.swift in Sources */,
 				B2B6D49029DCA4980070873F /* AppDelegate.swift in Sources */,
+				B2B6D4B329DD2BBB0070873F /* CarListViewInteractor.swift in Sources */,
 				B2B6D49229DCA4980070873F /* SceneDelegate.swift in Sources */,
+				B2B6D4B529DD2BCA0070873F /* CarListViewRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +378,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,9 +386,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.parththakkar.Guidomia2021;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +409,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +417,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.parththakkar.Guidomia2021;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

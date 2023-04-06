@@ -16,7 +16,6 @@ class CarListViewTableViewCell: UITableViewCell {
     @IBOutlet weak var vwRating: JStarRatingView!
     @IBOutlet weak var lblPros: UILabel!
     @IBOutlet weak var lblCons: UILabel!
-    @IBOutlet weak var vwMoreInfo: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -30,16 +29,12 @@ class CarListViewTableViewCell: UITableViewCell {
     }
     
     func configureCell(item: CarsList, isExpanded: Bool) {
-        vwImgCar.image = UIImage(named: item.carImage)
-        lblCarName.text = item.model
+        vwImgCar.image = item.getCarImage()
+        lblCarName.text = item.make + item.model
         lblCarPrice.text = String.formatPoints(num: item.customerPrice)
         vwRating.rating = Float(item.rating)
+        
         if isExpanded {
-            vwMoreInfo.isHidden = false
-            lblPros.attributedText = formattedStringFromArray(inputArr: item.prosList.filter {$0 != ""})
-            lblCons.attributedText = formattedStringFromArray(inputArr: item.consList.filter {$0 != ""})
-        } else {
-            vwMoreInfo.isHidden = true
             lblPros.attributedText = formattedStringFromArray(inputArr: item.prosList.filter {$0 != ""})
             lblCons.attributedText = formattedStringFromArray(inputArr: item.consList.filter {$0 != ""})
         }

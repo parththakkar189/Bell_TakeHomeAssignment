@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B232C19E29DE49A400E4EF9B /* Guidomia2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B232C19D29DE49A400E4EF9B /* Guidomia2021Tests.swift */; };
+		B232C1A629DE591B00E4EF9B /* CarListViewPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B232C1A529DE591B00E4EF9B /* CarListViewPresenterTests.swift */; };
+		B232C1AA29DE5E2300E4EF9B /* CarListDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B232C1A929DE5E2300E4EF9B /* CarListDataTests.swift */; };
+		B232C1AD29DE660D00E4EF9B /* CarList_Invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = B232C1AC29DE660D00E4EF9B /* CarList_Invalid.json */; };
+		B232C1B029DE746C00E4EF9B /* MockCarListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B232C1AF29DE746C00E4EF9B /* MockCarListViewPresenter.swift */; };
+		B232C1B229DE747900E4EF9B /* MockCarListViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B232C1B129DE747900E4EF9B /* MockCarListViewInteractor.swift */; };
+		B232C1B529DE776100E4EF9B /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B232C1B429DE776100E4EF9B /* DBManager.swift */; };
+		B232C1B729DE799100E4EF9B /* NSStringTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B232C1B629DE799100E4EF9B /* NSStringTransformer.swift */; };
 		B2B6D49029DCA4980070873F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D48F29DCA4980070873F /* AppDelegate.swift */; };
 		B2B6D49229DCA4980070873F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D49129DCA4980070873F /* SceneDelegate.swift */; };
 		B2B6D49729DCA4980070873F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B6D49529DCA4980070873F /* Main.storyboard */; };
@@ -24,9 +32,31 @@
 		B2B6D4BB29DD2D130070873F /* CarListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4BA29DD2D130070873F /* CarListEntity.swift */; };
 		B2B6D4BE29DD3A300070873F /* CarListViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4BD29DD3A300070873F /* CarListViewTableViewCell.swift */; };
 		B2B6D4C129DD41990070873F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4C029DD41990070873F /* Constant.swift */; };
+		B2B6D4C429DDEA890070873F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4C229DDEA890070873F /* Model.xcdatamodeld */; };
+		B2B6D4CE29DDEE430070873F /* Vehicle+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4CC29DDEE430070873F /* Vehicle+CoreDataClass.swift */; };
+		B2B6D4CF29DDEE430070873F /* Vehicle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B6D4CD29DDEE430070873F /* Vehicle+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B232C19F29DE49A400E4EF9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2B6D48429DCA4980070873F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2B6D48B29DCA4980070873F;
+			remoteInfo = Guidomia2021;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		B232C19B29DE49A400E4EF9B /* Guidomia2021Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Guidomia2021Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B232C19D29DE49A400E4EF9B /* Guidomia2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guidomia2021Tests.swift; sourceTree = "<group>"; };
+		B232C1A529DE591B00E4EF9B /* CarListViewPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewPresenterTests.swift; sourceTree = "<group>"; };
+		B232C1A929DE5E2300E4EF9B /* CarListDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListDataTests.swift; sourceTree = "<group>"; };
+		B232C1AC29DE660D00E4EF9B /* CarList_Invalid.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CarList_Invalid.json; sourceTree = "<group>"; };
+		B232C1AF29DE746C00E4EF9B /* MockCarListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCarListViewPresenter.swift; sourceTree = "<group>"; };
+		B232C1B129DE747900E4EF9B /* MockCarListViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCarListViewInteractor.swift; sourceTree = "<group>"; };
+		B232C1B429DE776100E4EF9B /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		B232C1B629DE799100E4EF9B /* NSStringTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSStringTransformer.swift; sourceTree = "<group>"; };
 		B2B6D48C29DCA4980070873F /* Guidomia2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guidomia2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B6D48F29DCA4980070873F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2B6D49129DCA4980070873F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,9 +76,19 @@
 		B2B6D4BA29DD2D130070873F /* CarListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListEntity.swift; sourceTree = "<group>"; };
 		B2B6D4BD29DD3A300070873F /* CarListViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewTableViewCell.swift; sourceTree = "<group>"; };
 		B2B6D4C029DD41990070873F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B2B6D4C329DDEA890070873F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B2B6D4CC29DDEE430070873F /* Vehicle+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B2B6D4CD29DDEE430070873F /* Vehicle+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B232C19829DE49A400E4EF9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2B6D48929DCA4980070873F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +99,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B232C19C29DE49A400E4EF9B /* Guidomia2021Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B232C1AB29DE65F700E4EF9B /* CarListInvalid */,
+				B232C1A429DE590300E4EF9B /* CarListViewTests */,
+				B232C19D29DE49A400E4EF9B /* Guidomia2021Tests.swift */,
+			);
+			path = Guidomia2021Tests;
+			sourceTree = "<group>";
+		};
+		B232C1A429DE590300E4EF9B /* CarListViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B232C1AE29DE745B00E4EF9B /* Helper */,
+				B232C1A529DE591B00E4EF9B /* CarListViewPresenterTests.swift */,
+				B232C1A929DE5E2300E4EF9B /* CarListDataTests.swift */,
+			);
+			path = CarListViewTests;
+			sourceTree = "<group>";
+		};
+		B232C1AB29DE65F700E4EF9B /* CarListInvalid */ = {
+			isa = PBXGroup;
+			children = (
+				B232C1AC29DE660D00E4EF9B /* CarList_Invalid.json */,
+			);
+			path = CarListInvalid;
+			sourceTree = "<group>";
+		};
+		B232C1AE29DE745B00E4EF9B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B232C1AF29DE746C00E4EF9B /* MockCarListViewPresenter.swift */,
+				B232C1B129DE747900E4EF9B /* MockCarListViewInteractor.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B232C1B329DE773C00E4EF9B /* DataBase Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B232C1B429DE776100E4EF9B /* DBManager.swift */,
+			);
+			path = "DataBase Helper";
+			sourceTree = "<group>";
+		};
 		B2B6D48329DCA4980070873F = {
 			isa = PBXGroup;
 			children = (
 				B2B6D48E29DCA4980070873F /* Guidomia2021 */,
+				B232C19C29DE49A400E4EF9B /* Guidomia2021Tests */,
 				B2B6D48D29DCA4980070873F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				B2B6D48C29DCA4980070873F /* Guidomia2021.app */,
+				B232C19B29DE49A400E4EF9B /* Guidomia2021Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +165,9 @@
 		B2B6D48E29DCA4980070873F /* Guidomia2021 */ = {
 			isa = PBXGroup;
 			children = (
+				B232C1B329DE773C00E4EF9B /* DataBase Helper */,
+				B2B6D4C729DDEBB70070873F /* CarList-CoreData */,
+				B2B6D4C529DDEB9B0070873F /* DataBase */,
 				B2B6D4BF29DD41840070873F /* Utilities */,
 				B2B6D4BC29DD3A0C0070873F /* Views */,
 				B2B6D4AD29DD2AF20070873F /* CarListView */,
@@ -140,9 +230,45 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		B2B6D4C529DDEB9B0070873F /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6D4C229DDEA890070873F /* Model.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		B2B6D4C729DDEBB70070873F /* CarList-CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B2B6D4CC29DDEE430070873F /* Vehicle+CoreDataClass.swift */,
+				B2B6D4CD29DDEE430070873F /* Vehicle+CoreDataProperties.swift */,
+				B232C1B629DE799100E4EF9B /* NSStringTransformer.swift */,
+			);
+			path = "CarList-CoreData";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B232C19A29DE49A400E4EF9B /* Guidomia2021Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B232C1A329DE49A500E4EF9B /* Build configuration list for PBXNativeTarget "Guidomia2021Tests" */;
+			buildPhases = (
+				B232C19729DE49A400E4EF9B /* Sources */,
+				B232C19829DE49A400E4EF9B /* Frameworks */,
+				B232C19929DE49A400E4EF9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B232C1A029DE49A400E4EF9B /* PBXTargetDependency */,
+			);
+			name = Guidomia2021Tests;
+			productName = Guidomia2021Tests;
+			productReference = B232C19B29DE49A400E4EF9B /* Guidomia2021Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B2B6D48B29DCA4980070873F /* Guidomia2021 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2B6D4A029DCA49B0070873F /* Build configuration list for PBXNativeTarget "Guidomia2021" */;
@@ -170,6 +296,10 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					B232C19A29DE49A400E4EF9B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B2B6D48B29DCA4980070873F;
+					};
 					B2B6D48B29DCA4980070873F = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -189,11 +319,20 @@
 			projectRoot = "";
 			targets = (
 				B2B6D48B29DCA4980070873F /* Guidomia2021 */,
+				B232C19A29DE49A400E4EF9B /* Guidomia2021Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B232C19929DE49A400E4EF9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B232C1AD29DE660D00E4EF9B /* CarList_Invalid.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2B6D48A29DCA4980070873F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,26 +348,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B232C19729DE49A400E4EF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B232C1B229DE747900E4EF9B /* MockCarListViewInteractor.swift in Sources */,
+				B232C1B029DE746C00E4EF9B /* MockCarListViewPresenter.swift in Sources */,
+				B232C1A629DE591B00E4EF9B /* CarListViewPresenterTests.swift in Sources */,
+				B232C19E29DE49A400E4EF9B /* Guidomia2021Tests.swift in Sources */,
+				B232C1AA29DE5E2300E4EF9B /* CarListDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2B6D48829DCA4980070873F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B2B6D4A729DD1F370070873F /* JStarRatingView.swift in Sources */,
 				B2B6D4C129DD41990070873F /* Constant.swift in Sources */,
+				B2B6D4CF29DDEE430070873F /* Vehicle+CoreDataProperties.swift in Sources */,
 				B2B6D4AF29DD2BA10070873F /* CarListViewProtocols.swift in Sources */,
 				B2B6D4B129DD2BAE0070873F /* CarListViewPresenter.swift in Sources */,
 				B2B6D4A929DD1F370070873F /* StarRatingStackView.swift in Sources */,
 				B2B6D4B929DD2CD00070873F /* CarListViewController.swift in Sources */,
 				B2B6D4BB29DD2D130070873F /* CarListEntity.swift in Sources */,
+				B232C1B729DE799100E4EF9B /* NSStringTransformer.swift in Sources */,
 				B2B6D4BE29DD3A300070873F /* CarListViewTableViewCell.swift in Sources */,
+				B2B6D4CE29DDEE430070873F /* Vehicle+CoreDataClass.swift in Sources */,
 				B2B6D49029DCA4980070873F /* AppDelegate.swift in Sources */,
+				B232C1B529DE776100E4EF9B /* DBManager.swift in Sources */,
 				B2B6D4B329DD2BBB0070873F /* CarListViewInteractor.swift in Sources */,
 				B2B6D49229DCA4980070873F /* SceneDelegate.swift in Sources */,
+				B2B6D4C429DDEA890070873F /* Model.xcdatamodeld in Sources */,
 				B2B6D4B529DD2BCA0070873F /* CarListViewRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B232C1A029DE49A400E4EF9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2B6D48B29DCA4980070873F /* Guidomia2021 */;
+			targetProxy = B232C19F29DE49A400E4EF9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B2B6D49529DCA4980070873F /* Main.storyboard */ = {
@@ -250,6 +414,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B232C1A129DE49A500E4EF9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parththakkar.Guidomia2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guidomia2021.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guidomia2021";
+			};
+			name = Debug;
+		};
+		B232C1A229DE49A500E4EF9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parththakkar.Guidomia2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guidomia2021.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guidomia2021";
+			};
+			name = Release;
+		};
 		B2B6D49E29DCA49B0070873F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -429,6 +627,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B232C1A329DE49A500E4EF9B /* Build configuration list for PBXNativeTarget "Guidomia2021Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B232C1A129DE49A500E4EF9B /* Debug */,
+				B232C1A229DE49A500E4EF9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B2B6D48729DCA4980070873F /* Build configuration list for PBXProject "Guidomia2021" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -448,6 +655,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2B6D4C229DDEA890070873F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2B6D4C329DDEA890070873F /* Model.xcdatamodel */,
+			);
+			currentVersion = B2B6D4C329DDEA890070873F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B2B6D48429DCA4980070873F /* Project object */;
 }

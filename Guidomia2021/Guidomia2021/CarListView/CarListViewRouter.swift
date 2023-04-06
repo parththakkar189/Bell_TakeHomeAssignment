@@ -12,7 +12,7 @@ class CarListViewRouter: CarListViewPresenterToRouterProtocol {
     static func createModule() -> UINavigationController {
         let view = Constants.loadStoryboard().instantiateViewController(withIdentifier: Constants.shared.carListViewController) as! CarListViewController
         let navigationController = UINavigationController(rootViewController: view)
-        view.navigationController?.navigationBar.isHidden = true
+        UINavigationController.navigationBarConfiguration(navigationController)
         let presenter: CarListViewViewToPresenterProtocol & CarListViewInteractorToPresenterProtocol = CarListViewPresenter()
         let interactor: CarListViewPresenterToInteractorProtocol = CarListViewInteractor()
         let router: CarListViewPresenterToRouterProtocol = CarListViewRouter()
@@ -22,5 +22,13 @@ class CarListViewRouter: CarListViewPresenterToRouterProtocol {
         view.presenter?.view = view
         view.presenter?.interactor?.presenter = presenter
         return navigationController
+    }
+}
+
+extension UINavigationController {
+    static func navigationBarConfiguration (_ controller: UINavigationController) {
+        controller.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        controller.navigationBar.tintColor = .orange
+        controller.navigationBar.backgroundColor = UIColor.orange
     }
 }

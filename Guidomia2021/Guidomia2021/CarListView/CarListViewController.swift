@@ -23,7 +23,7 @@ class CarListViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.presenter?.callGetCarListData()
         
-        self.tblCarList.estimatedRowHeight = 125.0
+        self.tblCarList.estimatedRowHeight = 145.0
         self.tblCarList.rowHeight = UITableView.automaticDimension
     }
 }
@@ -51,12 +51,13 @@ extension CarListViewController: UITableViewDelegate, UITableViewDataSource {
         if expandedIndexPath == indexPath {
             return UITableView.automaticDimension
         }
-        return 125.0
+        return 145.0
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         expandedIndexPath = indexPath
         tableView.beginUpdates()
+        tableView.layoutSubviews()
         tableView.reloadRows(at: [indexPath], with: .automatic)
         tableView.endUpdates()
     }
